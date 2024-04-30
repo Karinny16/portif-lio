@@ -28,7 +28,7 @@ header img{
 
 header nav ul li:hover{
     background-color:rgb(226, 224, 233);
-   text-transform: uppercase;
+   text-transform: uppercase; /* aumentar tamanho da letra*/
    font-family: 'Times New Roman', Times, serif;
    display:inline;
   padding:25px;
@@ -42,3 +42,35 @@ header nav ul li {
 header nav{
     padding:10px ;
 }
+
+    .containerd {
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+       
+    }
+
+   main h1{
+    text-align:center ; /* alinhamento de texto */
+    text-transform: uppercase;
+    padding: 35px ;
+   } 
+
+    .containerd img {
+     margin: 0px  25px;
+     width: 300px ;              /*largura*/
+     height: 500px;             /*altura*/
+     box-shadow: 10px -10px 10px rgb(8, 3, 2) ;
+
+    }
+
+    .paragrafod  p {
+        font-size:23px;
+        text-align: justify;
+        padding:10px 10px 10px ;
+    }
+
+    
+
+
+
+
